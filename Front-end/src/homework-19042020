@@ -1,0 +1,2 @@
+// agarrar el jsoon con javascript y usar react para crear la interfaz grafica de chatbot
+// si no podes hacerlo con los datos que vienen del servidor, copia el json del console.log de la consola a una variable en la app de react y usa ese json para construir el front end basico de los mensajes. Cuando tengas ese front end, hacemos una llamada y vemos React Life Cycle
