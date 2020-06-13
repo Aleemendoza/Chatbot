@@ -4,7 +4,7 @@ import './App.css';
 import imagen from './logoEsimbol.jpg'
 class App extends React.Component {
   render () {
-    var urlApp = 'http://localhost:8000/mensajes/'
+    var urlApp = 'http://localhost:3001/messages/156'
     var r = null
     fetch(urlApp, {
       method:'GET'
@@ -14,7 +14,6 @@ class App extends React.Component {
       r = response[0].fields.contenido
       console.log(response[0].fields.contenido)
     })
-
     const titulo  = "Bienvenidos al Chat bot";
 
     
