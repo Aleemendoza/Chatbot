@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
-import imagen from './logoEsimbol.jpg'
+import './index.css';
+import imagen from './fondoceleste.jpg'
 class App extends React.Component {
   render () {
     var urlApp = 'http://localhost:3001/messages/156'
@@ -14,15 +14,16 @@ class App extends React.Component {
       r = response[0].fields.contenido
       console.log(response[0].fields.contenido)
     })
-    const titulo  = "Bienvenidos al Chat bot";
-
     
-
-
+    
+    
+    
     return (
       <div> 
+       
         <header>
-        <img src = {imagen} className='app-chatBot' alt= "logo" />
+        <img src = {imagen} id= "imagen" className='app-chatBot' alt= "logo"  />
+        <h1></h1>
         </header>
       </div>
 
